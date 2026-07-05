@@ -1,0 +1,12 @@
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.deps.json
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.pdb
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.AssemblyInfoInputs.cache
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.AssemblyInfo.cs
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.csproj.CoreCompileInputs.cache
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.sourcelink.json
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\refint\CustomerCommLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.pdb
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\CustomerCommLib\obj\Debug\net10.0\ref\CustomerCommLib.dll

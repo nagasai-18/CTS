@@ -1,0 +1,12 @@
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\bin\Debug\net10.0\MagicFilesLib.deps.json
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\bin\Debug\net10.0\MagicFilesLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\bin\Debug\net10.0\MagicFilesLib.pdb
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.AssemblyInfoInputs.cache
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.AssemblyInfo.cs
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.csproj.CoreCompileInputs.cache
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.sourcelink.json
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\refint\MagicFilesLib.dll
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\MagicFilesLib.pdb
+D:\CTS\Deepskilling\Nunit nad Moq\Moq\MagicFilesLib\obj\Debug\net10.0\ref\MagicFilesLib.dll
