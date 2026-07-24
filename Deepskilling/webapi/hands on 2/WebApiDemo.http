@@ -1,0 +1,29 @@
+@WebApiDemo_HostAddress = http://localhost:5162
+
+GET {{WebApiDemo_HostAddress}}/swagger
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/values
+Accept: application/json
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/Emp
+Accept: application/json
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/Emp/1
+Accept: application/json
+
+###
+
+POST {{WebApiDemo_HostAddress}}/api/Emp
+Content-Type: application/json
+
+{
+  "name": "Diana",
+  "department": "Finance",
+  "isActive": true
+}

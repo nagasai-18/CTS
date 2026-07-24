@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KafkaChat.ConsoleApp/KafkaChat.ConsoleApp.csproj" />
+  <Project Path="KafkaChat.WinFormsApp/KafkaChat.WinFormsApp.csproj" />
+</Solution>

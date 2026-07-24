@@ -1,0 +1,27 @@
+@WebApiDemo_HostAddress = http://localhost:5162
+
+GET {{WebApiDemo_HostAddress}}/api/values
+Accept: application/json
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/values/0
+Accept: application/json
+
+###
+
+POST {{WebApiDemo_HostAddress}}/api/values
+Content-Type: application/json
+
+"value3"
+
+###
+
+PUT {{WebApiDemo_HostAddress}}/api/values/0
+Content-Type: application/json
+
+"updated value1"
+
+###
+
+DELETE {{WebApiDemo_HostAddress}}/api/values/0

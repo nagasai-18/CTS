@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "Hands On 5 JWT Demo",
+    "_postman_id": "0a7a84a8-8d7f-4d9b-8bb0-7eb0b5a2a505",
+    "description": "Collection for JWT authentication and role-based authorization testing.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Get Token",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:5165/api/auth/token"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Employees",
+      "item": [
+        {
+          "name": "Get Employees",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": "http://localhost:5165/api/employee"
+          }
+        },
+        {
+          "name": "Get Employees POC Only",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": "http://localhost:5165/api/employee/poc-only"
+          }
+        }
+      ]
+    }
+  ]
+}

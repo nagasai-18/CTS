@@ -1,0 +1,71 @@
+{
+  "info": {
+    "name": "WebApiDemo",
+    "_postman_id": "7f6c94cf-2f0e-4d68-b9f4-7af4f0fdc001",
+    "description": "Collection for testing the Web API demo.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Employees",
+      "item": [
+        {
+          "name": "Get All Employees",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:5162/api/employee",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5162",
+              "path": [
+                "api",
+                "employee"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Employee",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Diana\",\n  \"department\": \"Finance\",\n  \"isActive\": true\n}"
+            },
+            "url": {
+              "raw": "http://localhost:5162/api/employee",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5162",
+              "path": [
+                "api",
+                "employee"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+@WebApiDemo_HostAddress = http://localhost:5164
+
+GET {{WebApiDemo_HostAddress}}/swagger
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee
+Accept: application/json
+
+###
+
+POST {{WebApiDemo_HostAddress}}/api/employee
+Content-Type: application/json
+
+{
+  "name": "Diana",
+  "salary": 81000,
+  "permanent": true,
+  "department": "Finance"
+}
+
+###
+
+PUT {{WebApiDemo_HostAddress}}/api/employee/2
+Content-Type: application/json
+
+{
+  "name": "Bob Updated",
+  "salary": 90000,
+  "permanent": true,
+  "department": "IT"
+}
+
+###
+
+DELETE {{WebApiDemo_HostAddress}}/api/employee/3

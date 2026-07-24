@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Hands On 4 CRUD Demo",
+    "_postman_id": "c66b54db-7f02-4a7d-a3f4-68272c350004",
+    "description": "Collection for testing CRUD operations in hands on 4.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Employees",
+      "item": [
+        {
+          "name": "Get All Employees",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "http://localhost:5164/api/employee"
+          }
+        },
+        {
+          "name": "Create Employee",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Diana\",\n  \"salary\": 81000,\n  \"permanent\": true,\n  \"department\": \"Finance\"\n}"
+            },
+            "url": "http://localhost:5164/api/employee"
+          }
+        },
+        {
+          "name": "Update Employee",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Bob Updated\",\n  \"salary\": 90000,\n  \"permanent\": true,\n  \"department\": \"IT\"\n}"
+            },
+            "url": "http://localhost:5164/api/employee/2"
+          }
+        },
+        {
+          "name": "Delete Employee",
+          "request": {
+            "method": "DELETE",
+            "url": "http://localhost:5164/api/employee/3"
+          }
+        }
+      ]
+    }
+  ]
+}

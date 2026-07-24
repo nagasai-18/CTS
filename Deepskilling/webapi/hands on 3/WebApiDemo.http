@@ -1,0 +1,38 @@
+@WebApiDemo_HostAddress = http://localhost:5163
+
+GET {{WebApiDemo_HostAddress}}/swagger
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee
+Accept: application/json
+Authorization: Bearer demo-token
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee/standard
+Accept: application/json
+Authorization: Bearer demo-token
+
+###
+
+POST {{WebApiDemo_HostAddress}}/api/employee
+Content-Type: application/json
+Authorization: Bearer demo-token
+
+{
+  "name": "Diana",
+  "salary": 82000,
+  "permanent": true,
+  "department": {
+    "id": 3,
+    "name": "Finance"
+  },
+  "skills": [
+    {
+      "id": 5,
+      "name": "Accounting"
+    }
+  ],
+  "dateOfBirth": "1994-07-12T00:00:00"
+}

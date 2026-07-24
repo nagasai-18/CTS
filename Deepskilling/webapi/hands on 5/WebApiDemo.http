@@ -1,0 +1,26 @@
+@WebApiDemo_HostAddress = http://localhost:5165
+
+GET {{WebApiDemo_HostAddress}}/swagger
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/auth/token
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee
+Authorization: Bearer {{token}}
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee/poc-only
+Authorization: Bearer {{token}}
+
+###
+
+GET {{WebApiDemo_HostAddress}}/api/employee/1
+Authorization: Bearer {{token}}
